@@ -1,0 +1,32 @@
+
+body {
+  background-color: #ccc;
+  height: 100vh;
+}
+
+.card-lists {
+  overflow-x: auto;
+}
+
+svg {
+  pointer-events: none;
+}
+
+a span {
+  pointer-events: none;
+}
+
+.margin-bottom {
+  margin-bottom: 0.5rem;
+}
+
+/* .card__controls:first-child(1) {
+  margin-right: 0.2rem;
+}
+
+.card__controls > a {
+  background-color: rgb(238, 228, 228);
+  padding: 0.2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+} */

@@ -45,15 +45,9 @@ CREATE TABLE IF NOT EXISTS "label" (
 CREATE TABLE IF NOT EXISTS "card_has_label" (
   "label_id" INTEGER NOT NULL REFERENCES "label"("id") ON DELETE CASCADE,
   "card_id" INTEGER NOT NULL REFERENCES "card" ("id") ON DELETE CASCADE,
-<<<<<<< HEAD
-  PRIMARY KEY ("label_id", "card_id"),
-  "created_at" TIMESTAMP DEFAULT NOW(),
-  "updated_at" TIMESTAMP
-=======
    "created_at" TIMESTAMP DEFAULT NOW(),
     "updated_at" TIMESTAMP,
   PRIMARY KEY ("label_id", "card_id")
->>>>>>> 7d64c5423a8a558b7a9ccc1258f87a8a2f3e3fd7
 );
 
 INSERT INTO "list" ("name") VALUES

@@ -16,7 +16,7 @@
     "sequelize": "^6.5.0"
   },
   "scripts": {
-    "start": "npm index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

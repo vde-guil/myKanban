@@ -7,7 +7,7 @@ const labelModule = require('./label');
 const app = {
 
   // url de base de notre API
-  base_url: 'http://localhost:3000',
+  base_url: 'https://my-kanban-vde-guil.herokuapp.com/',
 
   /**
    * fonction d'initialisation, lancée au chargement de la page

@@ -6,8 +6,9 @@ const sequelize = new Sequelize(process.env.PG_URL || process.env.DATABASE_URL, 
         //permet le nom de champs en snake_case
         underscored: true,
         dialect: "postgres",
-        ssl:true,
+        protocol: "postgres",
         dialectOptions: {
+            ssl: true,
             rejectUnauthorized: false
         }
     }

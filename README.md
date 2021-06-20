@@ -1,6 +1,16 @@
 # myKanban
 
-Single Page Application app based on kanban
+Very simple kanban like application done in vanilla JS (front) and PostgreSQL (Sequelize), Node and express (REST API).
+the project is deployed [here](https://dashboard.heroku.com/apps/my-kanban-vde-guil).
+
+You can create/delete a new List, a new Card and a new Label.
+(deleting the list will remove all the cards contained in it as well)
+
+You can Switch the card from a list to another (drag and drop).
+You can add or remove a label to/from a Card
+
+You can modify the list title by double clicking on it.
+you can also update the color and content of the cards.
 
 ## Front
 
